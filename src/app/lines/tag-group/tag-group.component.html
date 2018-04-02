@@ -1,0 +1,15 @@
+<section class="tags row">
+  <div class="col-md-12">
+    <p class="text--bold">Tags</p>
+  </div>
+  <div class="col-md-6">
+    <p>Tag Group</p>
+    <a
+      *ngFor="let tagGroup of tagGroups"
+      (click)="displayTags(tagGroup)"
+    ><p class="tag-group text__small--dark">{{ tagGroup }}</p></a>
+  </div>
+  <div class="col-md-6">
+    <app-tags></app-tags>
+  </div>
+</section>

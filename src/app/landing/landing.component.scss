@@ -1,0 +1,13 @@
+@import '../../styles/components/background-box';
+//@import '../../styles/base/typography';
+
+.landing-area {
+  @extend %background-box;
+  text-align: center;
+  margin-top: 5rem;
+
+  p {
+    padding: 0 5rem 3rem 5rem;
+  }
+
+}

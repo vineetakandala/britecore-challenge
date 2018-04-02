@@ -1,0 +1,12 @@
+@import '../../../../styles/components/background-box';
+
+.field-group {
+  @extend %background-box;
+  padding: 0.3rem;
+  cursor: pointer;
+
+  p {
+    margin-bottom: 0;
+    display: inline-block;
+  }
+}

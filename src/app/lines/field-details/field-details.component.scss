@@ -1,0 +1,27 @@
+@import '../../../styles/utils/variables';
+
+.field-details {
+  margin: 1rem;
+
+  form {
+    margin-bottom: 3rem;
+
+    .ng-invalid.ng-touched{
+      border: 1px solid #ff0000;
+    }
+  }
+
+  .field-details__action {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $color-bg-dark;
+    z-index: 10;
+    .btn {
+      padding-right: 2rem;
+      padding-left: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}

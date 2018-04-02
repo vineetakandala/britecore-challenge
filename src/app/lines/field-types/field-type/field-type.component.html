@@ -1,0 +1,17 @@
+<a
+  (mouseover)="hovered=true"
+  (mouseout)="hovered=false"
+  (click)="typeOfInput(fieldType.type, fieldType.step)"
+>
+  <div class="field-type">
+    <p [ngClass]="(hovered) ? 'text--white' : ''">
+      <i class="{{ fieldType.symbol }}"></i>
+      <strong>{{ fieldType.name }}</strong>
+    </p>
+    <p [ngClass]="(hovered) ? 'text__info--hover' : 'text__info'">Definition</p>
+    <p [ngClass]="(hovered) ? 'text__small--hover' : 'text__small'">{{ fieldType.definition }}</p>
+    <p [ngClass]="(hovered) ? 'text__info--hover' : 'text__info'">Default Display</p>
+    <p [ngClass]="(hovered) ? 'text__small--hover' : 'text__small'">{{ fieldType.defaultDisplay }}</p>
+  </div>
+</a>
+

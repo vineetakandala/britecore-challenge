@@ -1,0 +1,7 @@
+@import '../../styles/components/background-box';
+
+.under-construction {
+  @extend %background-box;
+  text-align: center;
+  margin-top: 5rem;
+}

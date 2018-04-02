@@ -1,0 +1,31 @@
+@import '../../../../styles/components/background-box';
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+
+  &:link,
+  &:visited {
+    color: #000;
+  }
+
+  &:hover,
+  &:active {
+    .field-type{
+      background-color: $color-primary;
+    }
+  }
+
+  .field-type {
+    @extend %background-box;
+    margin-bottom: 2rem;
+
+    p {
+      padding-left: 1rem;
+
+      &:first-child {
+        padding-top: 1rem;
+      }
+    }
+  }
+}

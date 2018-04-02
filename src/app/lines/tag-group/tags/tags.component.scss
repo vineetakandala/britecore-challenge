@@ -1,0 +1,10 @@
+@import '../../../../styles/components/background-box';
+
+.tags {
+  @extend %background-box;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: auto 1rem 1rem auto;
+  padding: 0.3rem;
+  display: inline-block;
+}

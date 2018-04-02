@@ -1,0 +1,9 @@
+<section class="field-groups">
+  <p class="text--bold">Field Groups</p>
+  <p class="text__info">Choose a group for this input</p>
+  <app-field-group
+    *ngFor="let fieldGroupName of groupNames"
+    [fieldGroupName]="fieldGroupName"
+  ></app-field-group>
+  <button class="btn btn--default">Add A New Group</button>
+</section>

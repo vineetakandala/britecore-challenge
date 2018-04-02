@@ -1,0 +1,11 @@
+<section class="field-types">
+  <h3 class="heading-tertiary">Field Types</h3>
+  <div class="form-group">
+    <label for="filter-types">Filter Types</label>
+    <input type="text" id="filter-types" name="filter-types" class="form-control">
+  </div>
+  <app-field-type
+    *ngFor="let fieldType of fieldTypes"
+    [fieldType] = fieldType
+  ></app-field-type>
+</section>

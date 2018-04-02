@@ -1,0 +1,12 @@
+<p>Tags</p>
+<div
+   *ngIf="tagGroupSelected; else select"
+>
+  <a
+    *ngFor="let tag of tags"
+    class="tags text__small--dark"
+  >{{ tag }}</a>
+</div>
+<ng-template #select>
+  <p class="text__small--italic">Select a tag group to see individual tags</p>
+</ng-template>

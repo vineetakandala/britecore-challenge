@@ -1,0 +1,23 @@
+@import '../../styles/components/background-box';
+
+.lines {
+  margin-bottom: 7rem;
+  .lines__custom-input {
+    .background-box{
+      @extend %background-box;
+      margin: 0;
+
+      .field-types {
+        @extend %background-box;
+        border: none;
+        border-right: 1px solid $color-text;
+        overflow-y: auto;
+        max-height: 44rem;
+      }
+
+      .field-details {
+        background-color: $color-bg;
+      }
+    }
+  }
+}

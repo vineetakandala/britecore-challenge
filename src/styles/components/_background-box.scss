@@ -1,0 +1,7 @@
+@import '../../styles/utils/variables';
+
+%background-box {
+  background-color: $color-bg-dark;
+  border: 1px solid $color-text;
+  border-radius: 5px;
+}

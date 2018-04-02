@@ -1,0 +1,105 @@
+@import '../../styles/utils/variables';
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+  font-size: $default-font-size;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  margin: 3rem auto;
+}
+
+.heading-secondary {
+  font-size: 2.7rem;
+  font-weight: 300;
+  margin: 2rem auto;
+}
+
+.heading-tertiary {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 1rem auto;
+}
+
+p {
+  font-size: $default-font-size;
+}
+
+.text--bold {
+  font-weight: 700;
+}
+
+.text--white {
+  color: $color-bg;
+}
+
+.text__small {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.text__small--hover {
+  font-size: 1rem;
+  font-weight: 300;
+  color: $color-bg;
+}
+
+.text__small--italic {
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.text__small--bold {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.text__small--dark {
+  font-size: 1rem;
+  font-weight: 700;
+  color: $color-primary-dark;
+}
+
+.text__info {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: $color-primary-dark;
+}
+
+.text__info--red {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #ff0000;
+}
+
+.text__info--hover {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: $color-bg;
+}
+
+.btn {
+  font-size: $default-font-size;
+}
+.btn--primary {
+  background-color: $color-primary;
+  border: 1px solid #006273;
+  color: white;
+}
+
+.btn--default {
+  background-color: transparent;
+  border: 1px solid $color-text;
+}
+
+.btn-danger {
+  margin-left: 2rem;
+  border: 1px solid #8a1c1a;
+}
